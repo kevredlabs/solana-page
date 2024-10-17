@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://solana.kevred.com/sitemap.xml.gz
