@@ -3,9 +3,10 @@ output: .retype
 url: https://solana.kevred.com
 branding:
   title: Kevred
+  logo: static/logo-hermine-v1.png
   label: Docs
-links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+# links:
+# - text: Getting Started
+#   link: https://retype.com/guides/getting-started/
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."

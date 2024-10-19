@@ -1,106 +1,49 @@
-# 🌟 Kevred Solana Validator
 
-![Kevred Logo](static/kevred-logo.png)
+#  Kevred Solana Validator
+
+![](static/kevred-logo-v1.png)
+
+
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Our Mission](#our-mission)
-3. [Why Choose Kevred?](#why-choose-kevred)
-4. [How to Stake](#how-to-stake)
-5. [Security](#security)
-6. [Performance](#performance)
-7. [FAQ](#faq)
+2. [About Kevred](#about-kevred)
+3. [Our Mission](#our-mission)
+4. [Validator Information](#validator-information)
 
 ## Introduction
 
-Welcome to the official documentation of Kevred's Solana validator. We are dedicated to making staking on Solana safe, efficient, and transparent.
+Welcome to the official documentation of Kevred's Solana validator. We are dedicated to making staking on Solana safe, efficient and decentralized.
 
 !!!
-Staking with Kevred means contributing to Solana network's decentralization and security while optimizing your rewards!
+Staking with Kevred means contributing to Solana network's decentralization and security while earning rewards!
 !!!
+
+### About Kevred
+
+Kevred is an initiative launched by two technology and blockchain enthusiasts from France. Our mission is to contribute to the Solana ecosystem by managing a dedicated node, leveraging our technical expertise and passion for blockchain.
+Kevred actively participates in the development of the Solana ecosystem by contributing to the SuperTeamFR community. It is a community of Solana validators and developers from France.
+
 
 ## Our Mission
 
-At Kevred, our mission is threefold:
+At Kevred, our mission is to:
 
-1. Ensure the security and stability of the Solana network
+1. Ensure the decentralization and stability of the Solana network by running a mainnet and testnet validator
 2. Maximize rewards for our stakers
-3. Educate the community on the importance of staking
+3. Contribute to the development of the Solana ecosystem by participating in the SuperTeamFR community
+4. Develop and share our own tools or dApps to help the Solana community
 
-||| Info
-Kevred actively participates in the development of the Solana ecosystem by contributing to various open-source projects.
-|||
 
-## Why Choose Kevred?
 
-- [x] High-performance infrastructure
-- [x] Experienced blockchain team
-- [x] Competitive commission
-- [x] 24/7 community support
-- [x] Total transparency
+## Validator Information
 
-## How to Stake
-
-Staking with Kevred is simple and secure. Follow these steps:
-
-1. Connect your Solana wallet (Phantom, Solflare, etc.)
-2. Select the amount to stake
-3. Choose Kevred as your validator
-4. Confirm the transaction
-
-For detailed instructions, check out our [Staking Guide](/guides/staking).
-
-### Validator Information
-
-> Name: Kevred Validator
+> Name: Kevred Validator (on Mainnet)
 > 
-> Identity: KevXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+> Identity: 2t53LvZfskcpXkdwLaBnfZLbNgyVHPu2BNFpcRBaEBhM
 > 
-> Vote Account: VoteXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+> Vote Account: Gvt8s5Bwnhg4G27VbnT1Zkfh7Jsztq6CNvZcc5anPonS
+>
+> Dashboard : [Jito Public Dashboard](https://www.jito.network/fr/validator/Gvt8s5Bwnhg4G27VbnT1Zkfh7Jsztq6CNvZcc5anPonS/)
 
-## Security
-
-Security is our top priority:
-
-+++ Security Measures
-+ Infrastructure hosted in enterprise-grade data centers
-+ SSH key authentication only
-+ Protection against brute force attacks
-+ Advanced firewall
-+ Monitoring system on a separate server
-+++
-
-[!badge variant="success" text="Audited by CertiK"]
-
-## Performance
-
-Track our performance in real-time:
-
-```mermaid
-graph TD
-    A[Uptime] -->|99.99%| B[Blocks Produced]
-    B -->|1M+| C[Rewards Distributed]
-    C -->|10k+ SOL| D[Satisfied Stakers]
-</mermaid>
-
-## FAQ
-
-Got questions? We've got answers!
-
-+++ Frequently Asked Questions
-+ "What's the minimum amount to stake?"
-The minimum is 0.1 SOL, but we recommend at least 1 SOL to optimize your rewards.
-
-+ "What's your commission?"
-Our commission is 5%, one of the most competitive in the market.
-
-+ "How long does it take to unstake?"
-Unstaking takes about 2-3 days (1 Solana epoch).
-+++
-
----
-
-[!ref target="blank" text="Join our Discord community"](https://discord.gg/kevred)
-
-Last updated: {{ date.now | date('MMMM D, YYYY') }}
