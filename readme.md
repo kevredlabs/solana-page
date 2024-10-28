@@ -1,7 +1,8 @@
-
 #  Kevred Solana Validator
 
-![](static/kevred-logo-v1.png)
+<div style="text-align: center;">
+    <img src="static/kevred-logo-v2.jpg" width="700" style="border-radius: 20px; margin-bottom: 50px;"/>
+</div>
 
 
 
