@@ -22,3 +22,6 @@ footer:
     link: https://t.me/kevredlabs
     target: blank
 
+meta:
+  title: Kevred Solana Validator 
+  description: Official documentation of Kevred's Solana validator.
