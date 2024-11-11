@@ -62,7 +62,6 @@ This guide provides a step-by-step tutorial on how to stake Solana (SOL) using t
 - Click on "Kevred" to see your stake details.
 - Click on "Unstake" to start the unstaking process.
 - **You will be able to withdraw your SOL after some days once the stake account becomes inactive.**
-
 ![Screenshot: Opening Phantom Wallet](static/step8.png)
 
 
