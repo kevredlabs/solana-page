@@ -2,6 +2,7 @@
 
 This guide provides a step-by-step tutorial on how to stake Solana (SOL) using the Phantom wallet. Follow these simple steps to start earning staking rewards with Kevred.
 
+
 ## Prerequisites
 - Ensure that the Phantom wallet is installed on your browser. You can download it from the [Phantom official website](https://phantom.app/).
 - Make sure you have some SOL in your Phantom wallet.
