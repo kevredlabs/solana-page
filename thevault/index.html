@@ -9,24 +9,26 @@
     <meta name="generator" content="Retype 3.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Solana Staking ResourcesKevred Solana Validator</title>
-    <meta name="title" content="Solana Staking ResourcesKevred Solana Validator">
-    <meta name="description" content="Welcome to our curated list of resources for understanding and participating in Solana staking.">
+    <title>How to do Liquid Staking with The VaultKevred Solana Validator</title>
+    <meta name="title" content="How to do Liquid Staking with The VaultKevred Solana Validator">
+    <meta name="description" content="This tutorial assumes you already know what is liquid staking. If you don't, please read \"What is Staking ?\" first.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://solana.kevred.com/ressources/">
+    <link rel="canonical" href="https://solana.kevred.com/thevault/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://solana.kevred.com/ressources/">
-    <meta property="og:title" content="Solana Staking ResourcesKevred Solana Validator">
-    <meta property="og:description" content="Welcome to our curated list of resources for understanding and participating in Solana staking.">
+    <meta property="og:url" content="https://solana.kevred.com/thevault/">
+    <meta property="og:title" content="How to do Liquid Staking with The VaultKevred Solana Validator">
+    <meta property="og:description" content="This tutorial assumes you already know what is liquid staking. If you don't, please read \"What is Staking ?\" first.">
+    <meta property="og:image" content="https://solana.kevred.com/static/thevault1.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://solana.kevred.com/ressources/">
-    <meta property="twitter:title" content="Solana Staking ResourcesKevred Solana Validator">
-    <meta property="twitter:description" content="Welcome to our curated list of resources for understanding and participating in Solana staking.">
+    <meta property="twitter:url" content="https://solana.kevred.com/thevault/">
+    <meta property="twitter:title" content="How to do Liquid Staking with The VaultKevred Solana Validator">
+    <meta property="twitter:description" content="This tutorial assumes you already know what is liquid staking. If you don't, please read \"What is Staking ?\" first.">
+    <meta property="twitter:image" content="https://solana.kevred.com/static/thevault1.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -152,44 +154,227 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="solana-staking-resources" class="break-words">
+<doc-anchor-target id="how-to-do-liquid-staking-with-the-vault" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#solana-staking-resources">#</doc-anchor-trigger>
-        <span>Solana Staking Resources</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-do-liquid-staking-with-the-vault">#</doc-anchor-trigger>
+        <span>How to do Liquid Staking with The Vault</span>
     </h1>
 </doc-anchor-target>
-<p>Welcome to our curated list of resources for understanding and participating in Solana staking. Whether you are a beginner or an experienced staker, these resources will provide valuable insights and practical guidance on how to engage with Solana staking effectively.</p>
-<doc-anchor-target id="official-solana-resources">
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p>This tutorial assumes you already know what is liquid staking. If you don&#x27;t, please read &quot;What is Staking ?&quot; first.</p>
+        </div>
+    </div>
+</div>
+<p>This guide provides a step-by-step tutorial on how to stake Solana (SOL) to Kevred using The Vault.</p>
+<p>The Vault is a liquid staking protocol that allows users to stake their SOL while still benefiting from the liquidity of their assets. It is a well known protocol that has about 1M SOL staked to more than 100 validators.
+vSOL is the liquid staking token that represents your staked SOL, its value increases over time because the pool earns staking rewards.</p>
+<p>If you want to know more about the Vault, you can read their documentation <a href="https://docs.thevault.finance/">here</a> or join their discord. They have a very active community and a very good support.</p>
+<doc-anchor-target id="prerequisites">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#official-solana-resources">#</doc-anchor-trigger>
-        <span>Official Solana Resources</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#prerequisites">#</doc-anchor-trigger>
+        <span>Prerequisites</span>
     </h2>
 </doc-anchor-target>
 <ul>
-<li><strong><a href="https://docs.solana.com/staking">Solana Staking Guide</a></strong> : The official Solana documentation provides a comprehensive guide to staking, including how to choose a validator and stake SOL tokens.</li>
-<li><strong><a href="https://solanabeach.io/">Solana Beach</a></strong> : A Solana network explorer that provides real-time data on validators, block production, and network health.</li>
+<li>Ensure that you have a Solana compatible wallet like Solflare, Phantom, etc.</li>
+<li>Make sure you have some vSOL in your wallet. You can swap some SOL to vSOL on <a href="https://jup.ag/swap/SOL-vSOL">Jupiter</a>.</li>
+<li>Make sure to understand the concept of liquid staking.</li>
 </ul>
-<doc-anchor-target id="educational-articles">
+<doc-anchor-target id="steps-to-stake-sol-to-kevred-with-the-vault">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#educational-articles">#</doc-anchor-trigger>
-        <span>Educational Articles</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#steps-to-stake-sol-to-kevred-with-the-vault">#</doc-anchor-trigger>
+        <span>Steps to Stake SOL to Kevred with the Vault</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="step-1-open-the-vault-direct-stake-page">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-1-open-the-vault-direct-stake-page">#</doc-anchor-trigger>
+        <span>Step 1: Open the Vault direct stake page</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Go to the <a href="https://thevault.finance/dapp/direct/">Vault direct stake page</a> and select &quot;Kevred&quot; as the validator.</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../static/thevault1.png" alt="Screenshot: Vault direct stake page">
+    <figcaption class="caption">Screenshot: Vault direct stake page</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="step-2-select-the-stake-option">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-2-select-the-stake-option">#</doc-anchor-trigger>
+        <span>Step 2: Select the &quot;Stake&quot; option</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Click on the &quot;Stake&quot; option on the main menu.</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../static/thevault2.png" alt="Screenshot: Selecting the Stake option">
+    <figcaption class="caption">Screenshot: Selecting the Stake option</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="step-3-select-the-kevred-validator">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-3-select-the-kevred-validator">#</doc-anchor-trigger>
+        <span>Step 3: Select the Kevred Validator</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Solflare will display a list of available validators. These validators are nodes that process transactions and support the Solana network.</li>
+<li>Write &quot;kevred&quot; in the search bar to find the Kevred Validator. Solflare validator is recommended by the wallet by default but you can choose another one (ours had a better APY when I did the tutorial)</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../static/solflare1.png" alt="Screenshot: Select the Kevred Validator">
+    <figcaption class="caption">Screenshot: Select the Kevred Validator</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="step-4-delegate-your-sol">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-4-delegate-your-sol">#</doc-anchor-trigger>
+        <span>Step 4: Delegate Your SOL</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Enter the amount of SOL you wish to stake and confirm the transaction.</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../static/solflare2.png" alt="Screenshot: Delegating SOL">
+    <figcaption class="caption">Screenshot: Delegating SOL</figcaption>
+</figure>
+<figure class="content-center">
+    <img src="../static/solflare3.png" alt="Screenshot: Delegating SOL">
+    <figcaption class="caption">Screenshot: Delegating SOL</figcaption>
+</figure>
+<figure class="content-center">
+    <img src="../static/solflare4.png" alt="Screenshot: Delegating SOL">
+    <figcaption class="caption">Screenshot: Delegating SOL</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="step-5-confirmation-and-monitoring">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-5-confirmation-and-monitoring">#</doc-anchor-trigger>
+        <span>Step 5: Confirmation and Monitoring</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>After confirming the transaction, your SOL will be staked with Kevred. Thank you !</li>
+<li>You can check the status of your staking in Solflare by clicking on the Solana token in your wallet and then on &quot;Staking&quot;.</li>
+<li><strong>At this point, your staking will be &quot;activating&quot; and will be active at the end of the epoch (which can last about 2 days). Click on it to see &quot;Time to stake&quot;. Then, you will start earning rewards. Well done.</strong></li>
+</ul>
+<p><figure class="content-center">
+    <img src="../static/solflare5.png" alt="Screenshot: Checking your staking">
+    <figcaption class="caption">Screenshot: Checking your staking</figcaption>
+</figure>
+<figure class="content-center">
+    <img src="../static/solflare6.png" alt="Screenshot: Checking your staking">
+    <figcaption class="caption">Screenshot: Checking your staking</figcaption>
+</figure>
+<figure class="content-center">
+    <img src="../static/solflare7.png" alt="Screenshot: Checking your staking">
+    <figcaption class="caption">Screenshot: Checking your staking</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="step-6-monitoring-your-rewards">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-6-monitoring-your-rewards">#</doc-anchor-trigger>
+        <span>Step 6: Monitoring your rewards</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>You can check the status of your rewards in Solflare by clicking on one of your stake account and then on &quot;Rewards&quot;.</li>
+<li><strong>When your stake is active, your will receive staking rewards every 2-3 days.</strong></li>
+</ul>
+<p><figure class="content-center">
+    <img src="../static/solflare7-bis.png" alt="Screenshot: Checking your staking">
+    <figcaption class="caption">Screenshot: Checking your staking</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="steps-to-unstake-your-sol">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#steps-to-unstake-your-sol">#</doc-anchor-trigger>
+        <span>Steps to Unstake Your SOL</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="step-1-open-your-stake-account">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-1-open-your-stake-account">#</doc-anchor-trigger>
+        <span>Step 1: Open your stake account</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Click on the Solana token and then on &quot;Staking&quot; in your Solflare wallet.</li>
+<li>Open one of your stake account.</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../static/solflare8.png" alt="Screenshot: Opening Your Stake Account">
+    <figcaption class="caption">Screenshot: Opening Your Stake Account</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="step-2-unstake-your-sol">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-2-unstake-your-sol">#</doc-anchor-trigger>
+        <span>Step 2: Unstake your SOL</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Click on the three dots and then on &quot;Unstake&quot; to start the unstaking process.</li>
+<li><strong>You could have to wait a few days before you can withdraw your SOL, depending on the timing.</strong>
+<figure class="content-center">
+    <img src="../static/solflare9.png" alt="Screenshot: Unstaking">
+    <figcaption class="caption">Screenshot: Unstaking</figcaption>
+</figure>
+</li>
+</ul>
+<doc-anchor-target id="step-3-confirm-the-transaction">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#step-3-confirm-the-transaction">#</doc-anchor-trigger>
+        <span>Step 3: Confirm the transaction</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li>Confirm the transaction and wait for the unstaking to be completed. You will receive your SOL and rewards back to your wallet.</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../static/solflare10.png" alt="Screenshot: Confirming the transaction">
+    <figcaption class="caption">Screenshot: Confirming the transaction</figcaption>
+</figure>
+<figure class="content-center">
+    <img src="../static/solflare11.png" alt="Screenshot: Confirming the transaction">
+    <figcaption class="caption">Screenshot: Confirming the transaction</figcaption>
+</figure>
+<figure class="content-center">
+    <img src="../static/solflare12.png" alt="Screenshot: Confirming the transaction">
+    <figcaption class="caption">Screenshot: Confirming the transaction</figcaption>
+</figure>
+<figure class="content-center">
+    <img src="../static/solflare13.png" alt="Screenshot: Confirming the transaction">
+    <figcaption class="caption">Screenshot: Confirming the transaction</figcaption>
+</figure>
+</p>
+<doc-anchor-target id="additional-tips">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#additional-tips">#</doc-anchor-trigger>
+        <span>Additional Tips</span>
     </h2>
 </doc-anchor-target>
 <ul>
-<li><strong><a href="https://medium.com/@Cogent_Crypto/solana-staking-guide-part-1-6a6a85f07b56">What is Staking ?</a></strong> : An article by Cogent Crypto explaining the concept of staking and its importance to the network&#x27;s security and operation.</li>
-<li><strong><a href="https://solana.com/staking#how-do-i-estimate-and-view-my-staking-rewards">Staking and inflation FAQ</a></strong> : A detailed guide on how staking works and how to estimate and view your staking rewards.</li>
+<li><strong>Validator Selection</strong>: Choosing a reliable validator is crucial as it affects your staking rewards.</li>
+<li><strong>Liquidity</strong>: Keep in mind that staked SOL are not immediately liquid. There is a cooldown period if you decide to withdraw your funds from staking.</li>
 </ul>
-<doc-anchor-target id="community-and-support">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#community-and-support">#</doc-anchor-trigger>
-        <span>Community and Support</span>
-    </h2>
-</doc-anchor-target>
-<ul>
-<li><strong><a href="https://solana.com/community">Solana Social</a></strong> : A list of Solana communities and forums where you can find help and discuss staking strategies.</li>
-<li><strong><a href="https://solana.com/news">Solana News</a></strong> : Check the Solana news page for the latest announcements and updates.</li>
-</ul>
-<p>Happy staking !</p>
+<p>By following this tutorial, you can actively support the Solana network while earning staking rewards. Happy staking with us !</p>
 <p><em>Graet e Breizh</em></p>
 
                                 
@@ -200,16 +385,23 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../security-policies/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../how-to-stake-solflare/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Security Policies</span>
+                                                <span class="block mt-1">How to Stake SOL with Solflare Wallet</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../security-policies/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Security Policies</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
                                     </div>
                                 </nav>
                             </footer>
@@ -262,6 +454,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Solana Staking Resources", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "How to do Liquid Staking with The Vault", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
