@@ -1,3 +1,7 @@
+---
+order : 9
+---
+
 # How to Stake SOL with Phantom Wallet
 
 This guide provides a step-by-step tutorial on how to stake Solana (SOL) using the Phantom wallet. Follow these simple steps to start earning staking rewards with Kevred.

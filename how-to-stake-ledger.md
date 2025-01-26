@@ -1,3 +1,8 @@
+---
+order : 8
+---
+
+
 # How to Stake SOL on a Ledger
 
 This guide provides a step-by-step tutorial on how to stake Solana (SOL) using a Ledger wallet. Follow these simple steps to start earning staking rewards.

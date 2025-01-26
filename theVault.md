@@ -1,27 +1,44 @@
 ---
-order : 7
+order : 6
 ---
 
+# How to do Liquid Staking with The Vault
 
-# How to Stake SOL with Solflare Wallet
 
-This guide provides a step-by-step tutorial on how to stake Solana (SOL) using the Solflare wallet. Follow these simple steps to start earning staking rewards with Kevred.
+!!! 
+This tutorial assumes you already know what is liquid staking. If you don't, please read "What is Staking ?" first. 
+!!!
+
+This guide provides a step-by-step tutorial on how to stake Solana (SOL) to Kevred using The Vault.
+
+The Vault is a liquid staking protocol that allows users to stake their SOL while still benefiting from the liquidity of their assets. It is a well known protocol that has about 1M SOL staked to more than 100 validators.
+vSOL is the liquid staking token that represents your staked SOL, its value increases over time because the pool earns staking rewards.
+
+If you want to know more about the Vault, you can read their documentation [here](https://docs.thevault.finance/) or join their discord. They have a very active community and a very good support.
+
+
+
 
 
 ## Prerequisites
-- Ensure that the Solflare wallet is installed on your browser. You can download it from the [Solflare official website](https://solflare.com/).
-- Make sure you have some SOL in your Solflare wallet.
+- Ensure that you have a Solana compatible wallet like Solflare, Phantom, etc.
+- Make sure you have some vSOL in your wallet. You can swap some SOL to vSOL on [Jupiter](https://jup.ag/swap/SOL-vSOL).
+- Make sure to understand the concept of liquid staking.
 
-## Steps to Stake SOL with Solflare
 
-### Step 1: Open Your Solflare Wallet
-- Click on the Solflare icon in your browser's extension bar to open your wallet and enter your password.
 
+
+## Steps to Stake SOL to Kevred with the Vault
+
+### Step 1: Open the Vault direct stake page
+- Go to the [Vault direct stake page](https://thevault.finance/dapp/direct/) and select "Kevred" as the validator.
+
+![Screenshot: Vault direct stake page](static/thevault1.png)
 
 ### Step 2: Select the "Stake" option
 - Click on the "Stake" option on the main menu.
 
-![Screenshot: Selecting the Stake option](static/solflare0.png)
+![Screenshot: Selecting the Stake option](static/thevault2.png)
 
 
 ### Step 3: Select the Kevred Validator
