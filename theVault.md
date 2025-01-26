@@ -40,7 +40,7 @@ If you want to know more about the Vault, you can read their documentation [here
 ### Step 2: Connect your wallet
 - Click on "Connect Wallet" and select your wallet.
 
-![Screenshot: Selecting the Stake option](static/thevault2.png)
+![Screenshot: Selecting the Stake option](static/thevault2_ok.png)
 
 
 ### Step 3: Direct Stake your vSOL
@@ -51,7 +51,7 @@ If you want to know more about the Vault, you can read their documentation [here
 The Vault will delegate you vSOL automatically to Kevred. But, make sure to keep your vSOL in a place The Vault can track otherwise it will be delegated using their default delegation strategy. More info here : [The Vault documentation](https://docs.thevault.finance/users/validator-target-stake)
 !!!
 
-![Screenshot: Direct Stake](static/thevault3.png)
+![Screenshot: Direct Stake](static/thevault3_ok.png)
 
 
 
