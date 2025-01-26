@@ -56,6 +56,7 @@ The Vault will delegate you vSOL automatically to Kevred. But, make sure to keep
 
 
 ## Additional Tips
+- **for ADVANCED users only, Kamino Multiplier**: You can use the Kamino Multiplier to increase your rewards. More info here on X : [Kamino Multiplier](https://x.com/thevaultfinance/status/1878900639494762894). **Be careful, always evaluate risks in DeFi. It is not recommended for beginners and I will personally not use leverage.**
 - **Validator Selection**: You can change the validator at any time on the Vault direct stake page. We are using Kevred in this example because it is our validator.
 - **Come back to SOL**: You can exchange vSOL back to SOL on many platformes like Jupiter.
 
