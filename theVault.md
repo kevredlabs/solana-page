@@ -35,7 +35,7 @@ If you want to know more about the Vault, you can read their documentation [here
 ### Step 1: Open the Vault direct stake page
 - Go to the [Vault direct stake page](https://thevault.finance/dapp/direct/) and select "Kevred" as the validator.
 
-![Screenshot: Vault direct stake page](static/thevault1.png)
+![Screenshot: Vault direct stake page](static/thevault1_ok.png)
 
 ### Step 2: Connect your wallet
 - Click on "Connect Wallet" and select your wallet.
