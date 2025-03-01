@@ -12,8 +12,6 @@ When you stake with a validator, you are delegating your SOL (which represents v
 
 It is important to choose a good one to improve the network's security and efficiency but also to earn more rewards.
 
-If you want to learn more about staking, you can read the [Solana Staking Guide](https://solana.com/fr/docs/economics/staking).
-
 
 # Risks
 

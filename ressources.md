@@ -2,9 +2,9 @@
 
 Welcome to our curated list of resources for understanding and participating in Solana staking. Whether you are a beginner or an experienced staker, these resources will provide valuable insights and practical guidance on how to engage with Solana staking effectively.
 
-## Official Solana Resources
+## Solana Resources
 
-- **[Solana Staking Guide](https://docs.solana.com/staking)** : The official Solana documentation provides a comprehensive guide to staking, including how to choose a validator and stake SOL tokens.
+- **[Solana Compass](https://solanacompass.com/)** : Your guide to the Solana ecosystem.
 - **[Solana Beach](https://solanabeach.io/)** : A Solana network explorer that provides real-time data on validators, block production, and network health.
 
 ## Educational Articles
