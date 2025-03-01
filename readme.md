@@ -46,5 +46,5 @@ At Kevred, our mission is to:
 > 
 > Vote Account: Gvt8s5Bwnhg4G27VbnT1Zkfh7Jsztq6CNvZcc5anPonS
 >
-> Dashboard : [Jito Public Dashboard](https://www.jito.network/fr/validator/Gvt8s5Bwnhg4G27VbnT1Zkfh7Jsztq6CNvZcc5anPonS/)
+> Dashboards: [Click here](https://linktr.ee/solana.kevred.com)
 
